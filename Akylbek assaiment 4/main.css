@@ -1,0 +1,192 @@
+.btn {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer;
+  }
+  
+  .success {background-color: #040faa;} /* Green */
+  .success:hover {background-color: #4746a0;}
+  
+  .info {background-color: #2196F3;} /* Blue */
+  .info:hover {background: #0b7dda;}
+  
+  .warning {background-color: #ff9800;} /* Orange */
+  .warning:hover {background: #e68a00;}
+  
+  .danger {background-color: #f44336;} /* Red */
+  .danger:hover {background: #da190b;}
+  
+  .default {background-color: #e7e7e7; color: black;} /* Gray */
+  .default:hover {background: #ddd;}
+.head{
+    display: flex;
+}
+.bitkoin{
+    color: rgb(109, 11, 11);
+}
+/*.Mk{
+    color: black;
+}*/
+body{
+    background:("https://imagesratel.kz/cdn/inner/i/2017/August/30/b457c7cbe0b4a7073f03c724f00dd23ead0a31dd.jpg") center no-repeat;
+    background-size: cover;
+}
+audio {
+    height: 54px;  
+    width: 300px; 
+}
+
+audio:not([controls]) {
+    display: none !important;
+}
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(0, 204, 255);
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+  #div1 {
+    font-size:48px;
+    padding-left: 950px;
+    margin-left:34px;
+  }
+  .demo{
+    padding-left: 500px;
+  }
+  #qwerty{
+    padding-left: 1050px;
+   margin-bottom: -55px;
+  }
+  #example {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(7YKUD.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  #ytrewq{
+    padding-left: 450px;
+  }
+  #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+  p {
+    color:red;
+    backround:yellow;
+}
+ h1 {
+     background: green;
+ }
